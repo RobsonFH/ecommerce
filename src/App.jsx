@@ -70,7 +70,7 @@ const ProtectedRoute = ({children}) => {
   }
 }
 
-const ProtectedRouteForAdmin = () => {
+const ProtectedRouteForAdmin = ({children}) => {
   const admin = JSON.parse(localStorage.getItem('user'))
 
   if(admin.user.email === 'teste@teste.com'){
