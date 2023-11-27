@@ -62,7 +62,6 @@ function MyState(props) {
         window.location.href = "/dashboard";
       }, 800);
       getProductData();
-      closeModal();
       setLoading(false);
     } catch (error) {
       console.log(error);

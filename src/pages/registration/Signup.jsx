@@ -18,7 +18,7 @@ function Signup() {
     const signup = async () => {
         setLoading(true)
         if (name === "" || email === "" || password === "") {
-            return toast.error("All fields are required")
+            return toast.error("Preencha todos os campos")
         }
 
         try {
@@ -34,7 +34,7 @@ function Signup() {
             }
             const userRef = collection(fireDB, "users")
             await addDoc(userRef, user);
-            toast.success("Signup Succesfully")
+            toast.success("Logado com sucessp")
             setName("");
             setEmail("");
             setPassword("");

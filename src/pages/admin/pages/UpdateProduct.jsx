@@ -59,7 +59,7 @@ function UpdateProduct() {
                         <button
                         onClick={updateProduct}
                             className=' bg-yellow-500 w-full text-black font-bold  px-2 py-2 rounded-lg'>
-                            Update Product
+                            Atualizar produto
                         </button>
                     </div>
                  
